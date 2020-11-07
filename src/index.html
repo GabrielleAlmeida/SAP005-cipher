@@ -1,14 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Querido Diário Cifrado</title>
     <link rel="stylesheet" href="style.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+<body>
+  <figure>
+      <img src="imagens/queridodiario.jpeg" alt="Imagem do logotipo, escrito Querido Diário">
+  </figure>
+    
+  <div id="root">
+     <h1> "Onde todos pensamentos digitados são transformados em segredos cifrados."</h1>
+        <p id="description"> 
+          Em criptografia, uma cifra é o ato de converter a mensagem original por meio da mudança<br>
+          de ordem ou aparência.</p>
+
+      <h2> Usaremos um tipo de cifra de substituição</h2>
+          <p>Para criptografar e descriptografar especifique o valor da chave: ela te permite escolher o deslocamento.</p>
+  </div>
+
+  <div id="your-diary-encode">
+      <h3>Codificar seu diário:</h3>
+  </div>
+
+    <div id="box-encode">
+      <label for="story-encode"> Escreva a sua mensagem e vamos Cifrar:</label><br><br>
+      <textarea 
+          id="story-encode" 
+          name="story-encode" 
+          placeholder="Conte a sua história..."        
+          rows="10" 
+          cols="50" 
+          autocomplete="off" 
+          required
+      ></textarea>
+      <br>
+      <input id="key-encode" type="number" placeholder="Qual o número da chave?" min="1">
+      <button id="button-encode">Codificar</button>
+
     </div>
-    <script src="index.js" type="module"></script>
+    <div id="box-encode-result">
+      <label for="story-encode-result"> Misturando as letras!</label><br><br>
+      <textarea 
+        id="story-encode-result" 
+        name="story-encode-result" 
+        placeholder="Resultado de sua Codificação, lembre-se sempre da chave!"        
+        rows="10"
+        cols="50"
+        autocomplete="off"
+        spellcheck="false"
+        readonly
+        required
+      ></textarea>
+      <br><br>
+    </div>
+
+    <div id="your-diary-decode">
+      <h4>Decodificar seu diário:</h4>
+    </div>
+
+    <div id="box-decode">
+      <label for="story-decode"> Escreva o segredo Cifrado pra desvendar:</label><br><br>
+      <textarea 
+        id="story-decode" 
+        name="story-decode" 
+        placeholder="Escreva a Cifra..."
+        rows="10" 
+        cols="50" 
+        autocomplete="off" 
+        spellcheck="false" 
+        required
+      ></textarea>
+      <br>
+      <input id="key-decode" type="number" placeholder="Qual o número da chave?" min="1">
+      <button id="button-decode">Decodificar</button>
+
+    </div>
+
+    <div id="box-decode-result">
+      <label for="story-decode-result"> O segredo foi desvendado!</label><br><br>
+      <textarea 
+        id="story-decode-result" 
+        name="story-decode-result" 
+        placeholder="Resultado de sua Decodificação, lembre-se sempre da chave!"        
+        rows="10" 
+        cols="50" 
+        autocomplete="off" 
+        readonly
+        required
+      ></textarea>
+      <br><br>
+    </div>
+
+  <script src="index.js" type="module"></script> 
   </body>
 </html>

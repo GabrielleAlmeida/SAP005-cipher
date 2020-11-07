@@ -1,0 +1,95 @@
+body {
+    background-color: #f2f2f2;
+    }
+
+img{
+    display: block;
+    width: 800px;   
+    height: 305px;  
+    margin-top: 10px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Syne Mono', monospace;
+    color: #26353e;
+    margin-top: 30px;
+}
+#description {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Libre Baskerville', serif;
+    color: #26353e;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Syne Mono', monospace;
+    color: #2a3a42;
+    margin-top: 24px;
+}
+p{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+    color: #26353e;
+    margin-left: auto;
+    margin-right: auto;
+}
+#your-diary-encode{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Libre Baskerville', serif;
+    color: #26353e;
+}
+
+#your-diary-decode{
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Libre Baskerville', serif;
+    color: #26353e;
+}
+#box-encode{
+    text-align: center;
+    font-size: 18px;
+    display:inline-block;
+    margin-left: 170px;
+}
+#box-encode-result{
+    text-align: center;
+    font-size: 18px;
+    display:inline-block;
+    margin-top: 10px; /* margem do topo */
+    margin-left: 15px;
+}
+#box-decode{
+    text-align: center;
+    font-size: 18px;
+    display:inline-block;
+    margin-left: 170px;
+}
+#box-decode-result{
+    text-align: center;
+    font-size: 18px;
+    display:inline-block;
+    margin-top: 10px; /* margem do topo */
+    margin-left: 15px;
+}
+label{
+    color: #26353e;
+
+}
+textarea {
+    resize: none;
+    padding: 10px;
+    line-height: 1.5;
+    border-radius: 7px;
+    border: 1px solid rgb(2, 8, 43);
+    box-shadow: 2px 2px 2px rgb(114, 116, 122);
+}
+
