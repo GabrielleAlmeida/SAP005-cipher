@@ -25,7 +25,7 @@ se encontra há um número fixo de posições (deslocamento) mais a frente do me
 
 "Onde todos pensamentos digitados são transformados em segredos cifrados."
 
-A aplicação chamada de Querido diário Cifrafo foi criada, para qualquer usuário que deseja codificar
+A aplicação chamada de Querido diário Cifrado foi criada, para qualquer usuário que deseja codificar
 seu diário para garantir que o conteúdo do mesmo se mantenha em segredo,podendo apenas ser decifrado pelo portador da chave de deslocamento. 
 
 
